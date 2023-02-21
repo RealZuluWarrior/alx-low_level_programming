@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include "main.h"
 /**
-* 3-islower : a function print alphabet 10x
+* _islower - checks if this is lower case or not
 *
-* Return: Always 0 (Succes)
+* @c: single letter input
+* Return: 1 if int c is lowercase, 0 if otherwise
 */
 int _islower(int c)
 {
@@ -11,6 +12,4 @@ int _islower(int c)
 		return (1);
 	else
 		return (0);
-}
-return;
 }
