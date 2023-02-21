@@ -14,7 +14,7 @@ char *word = "_putchar";
 while (*word)
 {
 _putchar(*word);
-*word++;
+word++;
 }
 return (0);
 }
