@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include "main.h"
-/*
- *main - print lower case
+/**
+ * print_alphabet - a function prints alphabet lowercase
  *
- *
+ * Return: Always 0 (Succes)
  */
-void print_alphabet (void)
+void print_alphabet(void)
 {
-	char *al ="abcdefghijklmnopqrstuvwxyz";	
-     while(*al)
-     {
-	     _putchar(*al);
-	     al++;
-     }
-     _putchar('\n');
+char *al = "abcdefghijklmnopqrstuvwxyz";
+while (*al)
+{
+_putchar(*al);
+al++;
+}
+_putchar('\n');
+return;
 }
