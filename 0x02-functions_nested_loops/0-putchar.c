@@ -10,5 +10,11 @@
 
 int main(void)
 {
-	return(0);
+char *word = "_putchar";
+while (*word)
+{
+_putchar(*word);
+*word++;
+}
+return (0);
 }
