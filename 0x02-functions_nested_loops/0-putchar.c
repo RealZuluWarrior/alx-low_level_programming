@@ -10,5 +10,5 @@
 
 int main(void)
 {
-	return(_putchar("_putchar"));
+	return(0);
 }
