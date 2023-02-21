@@ -7,11 +7,10 @@
  */
 void print_alphabet_x10(void)
 {
-        char *a = "abcdefghijklmnopqrstuvwxyz";
         int i = 0;
         while (i < 10)
         {
-	 a = 0;
+	 char *a = "abcdefghijklmnopqrstuvwxyz";
 		while (*a)
                 {
                 _putchar(*a);
