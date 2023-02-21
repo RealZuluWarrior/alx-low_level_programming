@@ -5,17 +5,13 @@
  *
  *
  */
-int main(void)
-{
-	static char *alpha ="abcdefghijklmnopqrstuvwxyz";
-	print_alphabet();
-	return (0);
-}
 void print_alphabet (void)
 {
-     while(*alpha)
+	char *al ="abcdefghijklmnopqrstuvwxyz";	
+     while(*al)
      {
-	     _putchar(tolower(*alpha));
-	     alpha++;
+	     _putchar(*al);
+	     al++;
      }
+     _putchar('\n');
 }
