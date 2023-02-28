@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strcpy - function with two arguments
  * @dest: 1st argument char type pointer
