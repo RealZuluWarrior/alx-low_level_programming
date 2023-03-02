@@ -10,20 +10,21 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-        int len1 = 0;
-        int len2 = 0;
-        int i;
+	int index_01 = 0;
+	int index_02 = 0;
 
-        while (src[len1] != '\0')
-                len1++;
+	while (dest[index_01] != '\0')
+	{
+		index_01++;
+	}
 
-        while (dest[len2] != '\0')
-                len2++;
+	while (index_02 < n && src[index_02] != '\0')
+	{
+		dest[index_01 + index_02] = src[index_02];
+		index_02++;
 
-        for (i = 0; i < n; i++)
-        {
-                dest[len2] = src[i];
-                len2++;
-        }
-        return (dest);
+	}
+	dest[index_01 + index_02] = '\0';
+
+	return (dest);
 }
